@@ -17,7 +17,7 @@ const videos: Video[] = [
     title: 'Profil Sekolahku | SMP Plus Arroudhoh',
     description:
       'SMP PLUS ARROUDHOH , Full Day School yang mengadaptasi kurikulum ala pesantren.  Kami siap membantu setiap siswa mengembangkan potensi terbaiknya melalui pembelajaran yang seimbang antara ilmu pengetahuan umum dan ilmu agama Mari menjadi bagian dari keluarga besar SMP Plus Ar-Roudhoh, tempat di mana ilmu, adab, dan prestasi berpadu dalam harmoni!',
-    thumbnail: require('../../assets/images/pict/thumbnail.png'),
+    thumbnail: require('../assets/images/pict/thumbnail.png'),
     url: 'hthttps://youtu.be/5QtjF6SFu',
   },
 ];
@@ -56,7 +56,7 @@ const SMPPlusArroudhohHomepage = () => {
 
       {/* Welcome Section */}
       <View style={styles.welcomeSection}>
-         <Image source={require('../../assets/images/pict/logo.png')} style={styles.logo} />
+         <Image source={require('../assets/images/pict/logo.png')} style={styles.logo} />
         <Text style={styles.welcomeTitle}>SELAMAT DATANG</Text>
         <Text style={styles.welcomeSubtitle}>DI SMP PLUS ARROUDHOH</Text>
       </View>
@@ -76,21 +76,21 @@ const SMPPlusArroudhohHomepage = () => {
         </Text>
         <View style={styles.reasonsContainer}>
           <View style={styles.reasonBox}>
-            <Image source={require('../../assets/images/pict/masjid.jpg')} style={styles.reasonIcon} />
+            <Image source={require('../assets/images/pict/masjid.jpg')} style={styles.reasonIcon} />
             <Text style={styles.reasonTitle}>Pendidikan Berbasis Pesantren</Text>
             <Text style={styles.reasonText}>
               Menggabungkan kurikulum nasional dengan nilai-nilai keislaman, membentuk siswa yang cerdas secara akademik dan kuat secara spiritual.
             </Text>
           </View>
           <View style={styles.reasonBox}>
-            <Image source={require('../../assets/images/pict/bintang.jpg')} style={styles.reasonIcon} />
+            <Image source={require('../assets/images/pict/bintang.jpg')} style={styles.reasonIcon} />
             <Text style={styles.reasonTitle}>Fokus pada Adab dan Ibadah</Text>
             <Text style={styles.reasonText}>
               Mengutamakan pembinaan karakter dan akhlakul karimah sebagai dasar utama dalam setiap proses pembelajaran.
             </Text>
           </View>
           <View style={styles.reasonBox}>
-            <Image source={require('../../assets/images/pict/buku.jpg')} style={styles.reasonIcon} />
+            <Image source={require('../assets/images/pict/buku.jpg')} style={styles.reasonIcon} />
             <Text style={styles.reasonTitle}>Lingkungan Islami dan Disiplin</Text>
             <Text style={styles.reasonText}>
               Suasana sekolah yang religius dan tertib mendukung tumbuhnya kedisiplinan, tanggung jawab, dan kemandirian siswa.
@@ -103,7 +103,7 @@ const SMPPlusArroudhohHomepage = () => {
       <View style={styles.principalMessageSection}>
         <Text style={styles.sectionTitle}>Sambutan Kepala Sekolah</Text>
         <View style={styles.greetingContainer}>
-          <Image source={require('../../assets/images/pict/kpl.jpg')} style={styles.headImage} />
+          <Image source={require('../assets/images/pict/kpl.jpg')} style={styles.headImage} />
           <Text style={styles.greetingText}>
             Selamat datang di SMP Plus Ar-Roudhoh, Full Day School yang mengadaptasi kurikulum ala pesantren. Seorang ulama besar, Imam Malik,
              pernah berkata: "Pelajarilah adab sebelum mempelajari suatu ilmu." Seperti yang kita ketahui, perbedaan mendasar antara manusia dan binatang 
